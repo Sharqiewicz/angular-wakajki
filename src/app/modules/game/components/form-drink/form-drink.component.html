@@ -1,0 +1,23 @@
+<form [formGroup]="drinkForm">
+  <div>
+    <label for="name"> Name </label>
+    <input id="name" type="text" formControlName="name" />
+  </div>
+
+  <div>
+    <label for="percentage"> Percentage </label>
+    <input id="percentage" type="text" formControlName="percentage" />
+  </div>
+
+  <div>
+    <label for="percentage"> Color </label>
+    <input id="color" type="color" formControlName="color" />
+  </div>
+
+  <div>
+    <label for="percentage"> hasBonus </label>
+    <input type="checkbox" id="hasBonus" formControlName="hasBonus" />
+  </div>
+
+  <app-button>Add</app-button>
+</form>
